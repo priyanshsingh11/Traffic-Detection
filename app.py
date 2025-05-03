@@ -127,6 +127,7 @@ if video_file:
         | Person     | `{label_counts["person"]}` | `{probs.get("person", 0):.2f}` |
         """)
 
+        
         # Display info theory metrics
         info_placeholder.markdown(f"""
         ### 📊 Information Theory Metrics
